@@ -24,10 +24,12 @@ function fibRecursion(n) {
    let nextArray = fibArray[n - 1] + fibArray[n - 2];
 
    fibArray.push(nextArray);
+   console.log("This was printed recursively");
+
    return fibArray;
    
 }
-// console.log(fibRecursion(8));
+console.log(fibRecursion(8));
 
 // for merge sort
 
